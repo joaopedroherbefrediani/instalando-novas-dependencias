@@ -53,5 +53,6 @@ cinst jdk8 --version 8.0.211 -y
 Write-Host "Instalando DirectX"
 cinst directx --version 9.29.1974.20210222 -y
 
-
+Write-Host "Instalando Microsoft Teams"
+cinst microsoft-teams --version 1.6.00.376 -y
 
