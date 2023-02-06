@@ -56,3 +56,7 @@ cinst directx --version 9.29.1974.20210222 -y
 Write-Host "Instalando Microsoft Teams"
 cinst microsoft-teams --version 1.6.00.376 -y
 
+Write-Host "Instalando Discord"
+cinst discord --version 1.0.9005 -y
+
+
