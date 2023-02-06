@@ -3,7 +3,7 @@
 ### Chamando Script sem criar arquivo
 
 ```powershell
-iex (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Joao13Neves/Automatiza-o-Install/main/install.ps1')
+iex (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/joaofrediani/instalando-novas-dependencias/main/install.ps1')
 ```
 
 ### Permitindo execução de Scripts
