@@ -15,16 +15,16 @@ Write-Host "Atualizando Chocolatey"
 choco upgrade chocolatey
 
 Write-Host "Instalando Adobe Acrobat Reader DC"
-cinst adobereader --version 2022.003.20322 -y
+cinst adobereader --version 2023.001.20093 -y
 
 Write-Host "Instalando Google Chrome"
-cinst googlechrome --version 111.0.5563.65 -y
+cinst googlechrome --version 111.0.5563.111 -y
 
 Write-Host "Instalando Microsoft Visual C++ Redistributable for Visual Studio All Versions"
 cinst vcredist140 --version 14.34.31938 -y
 
 Write-Host "Instalando Notepad++"
-cinst notepadplusplus.install --version 8.5 -y
+cinst notepadplusplus.install --version 8.5.1 -y
 
 Write-Host "Instalando Git"
 cinst git.install --version 2.40.0 -y
@@ -33,16 +33,16 @@ Write-Host "Instalando WinRAR"
 cinst winrar --version 6.21 -y
 
 Write-Host "Instalando Node JS"
-cinst nodejs --version 19.8.1 -y
+cinst nodejs.install --version 19.8.1 -y
 
 Write-Host "Instalando CCleaner"
 cinst ccleaner --version 6.10.10347 -y
 
 Write-Host "Instalando Visual Studio Code"
-cinst vscode --version 1.76.2 -y
+cinst vscode.install --version 1.76.2 -y
 
 Write-Host "Instalando AnyDesk MSI"
-cinst anydesk.install --version 7.1.8 -y
+cinst anydesk.install --version 7.1.9 -y
 
 Write-Host "Instalando Java SE 8"
 cinst jre8 --version 8.0.361 -y
