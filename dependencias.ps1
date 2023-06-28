@@ -1,5 +1,5 @@
 
-Write-Host "Iniciando a instalação das dependências"
+Write-Host "Iniciando a instalacao das dependencias"
 
 Write-Host "Configurando ExecutionPolicy e criando HOME ENV"
 Set-ExecutionPolicy RemoteSigned ; $Env:USER_HOME="$Env:USERPROFILE\Desktop" ; cd $Env:USER_HOME ;
@@ -7,7 +7,7 @@ Set-ExecutionPolicy RemoteSigned ; $Env:USER_HOME="$Env:USERPROFILE\Desktop" ; c
 Write-Host "Instalando Chocolatey"
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
-Write-Host "Checando se Chocolatey está instalado"
+Write-Host "Checando se Chocolatey esta instalado"
 
 choco --version
 
@@ -15,34 +15,34 @@ Write-Host "Atualizando Chocolatey"
 choco upgrade chocolatey
 
 Write-Host "Instalando Java SE 8"
-choco install jre8 --version 8.0.371 -y
+choco install jre8 --version 8.0.371 -Y
 
 Write-Host "Instalando Directx 9"
-choco install directx --version 9.29.1974.20210222 -y
+choco install directx --version 9.29.1974.20210222 -Y
 
 Write-Host "Instalando Visual C++ Redistributable"
-choco install vcredist140 --version 14.36.32532 -y
+choco install vcredist140 --version 14.36.32532 -Y
 
 Write-Host "Instalando Adobe Reader DC"
-choco install adobereader --version 2023.3.20201.1 -y
+choco install adobereader --version 2023.3.20201.1 -Y
 
 Write-Host "Instalando Notepad++"
-choco install notepadplusplus.install --version 8.5.4 -y
+choco install notepadplusplus.install --version 8.5.4 -Y
 
 Write-Host "Instalando Winrar"
-choco install winrar --version 6.22 -y
+choco install winrar --version 6.22 -Y
 
 Write-Host "Instalando CCleaner"
-choco install ccleaner --version 6.13.10517 -y
+choco install ccleaner --version 6.13.10517 -Y
 
 Write-Host "Instalando AnyDesk"
-choco install anydesk.install --version 7.1.12 -y
+choco install anydesk.install --version 7.1.12 -Y
 
 Write-Host "Instalando Lightshot"
-choco install lightshot --version 5.5.0.720221014 -y
+choco install lightshot --version 5.5.0.720221014 -Y
 
 Write-Host "Instalando Microsoft Teams"
-choco install microsoft-teams --version 1.6.0.16472 -y
+choco install microsoft-teams --version 1.6.0.16472 -Y
 
 Write-Host "Instalando Google Chrome"
-choco install googlechrome --version 114.0.5735.199 -y
+choco install googlechrome --version 114.0.5735.199 -Y
