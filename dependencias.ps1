@@ -24,7 +24,7 @@ Write-Host "Instalando Visual C++ Redistributable"
 choco install vcredist140 --version 14.36.32532 -Y
 
 Write-Host "Instalando Adobe Reader DC"
-choco install adobereader --version 2023.3.20201.1 -Y
+choco install adobereader --version 2023.003.20215 -Y
 
 Write-Host "Instalando Notepad++"
 choco install notepadplusplus.install --version 8.5.4 -Y
