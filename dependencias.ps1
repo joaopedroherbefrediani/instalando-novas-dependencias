@@ -36,7 +36,7 @@ Write-Host "Instalando CCleaner"
 choco install ccleaner --version 6.13.10517 -Y
 
 Write-Host "Instalando AnyDesk"
-choco install anydesk.install --version 7.1.12 -Y
+choco install anydesk.install --version 7.1.13 -Y
 
 Write-Host "Instalando Lightshot"
 choco install lightshot --version 5.5.0.720221014 -Y
