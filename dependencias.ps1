@@ -15,7 +15,7 @@ Write-Host "Atualizando Chocolatey"
 choco upgrade chocolatey
 
 Write-Host "Instalando Java SE 8"
-choco install jre8 --version 8.0.371 -Y
+choco install javaruntime --version 8.0.231 -Y
 
 Write-Host "Instalando Directx 9"
 choco install directx --version 9.29.1974.20210222 -Y
