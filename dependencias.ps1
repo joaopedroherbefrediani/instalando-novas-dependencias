@@ -39,7 +39,7 @@ Write-Host "Instalando Lightshot"
 choco install lightshot --version 5.5.0.720221014 -Y
 
 Write-Host "Instalando Microsoft Teams"
-choco install microsoft-teams.install --version 1.6.0.27573 -Y
+choco install microsoft-teams --version 1.6.0.27573 -Y
 
 Write-Host "Instalando Google Chrome"
 choco install googlechrome --version 118.0.5993.118 -Y
