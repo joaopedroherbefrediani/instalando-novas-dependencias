@@ -14,32 +14,26 @@ choco --version
 Write-Host "Atualizando Chocolatey"
 choco upgrade chocolatey
 
-Write-Host "Instalando Java SE 8"
-choco install jre8 --version 8.0.391 -Y
-
-Write-Host "Instalando Directx 9"
-choco install directx --version 9.29.1974.20210222 -Y
-
-Write-Host "Instalando Adobe Reader DC"
+Write-Host "Instalando Adobe Reader"
 choco install adobereader --version 2023.6.20360 -Y
 
+Write-Host "Instalando 7zip"
+choco install 7zip.install --version 23.1.0 -Y
+
 Write-Host "Instalando Notepad++"
-choco install notepadplusplus.install --version 8.5.8 -Y
-
-Write-Host "Instalando Winrar"
-choco install winrar --version 6.24 -Y
-
-Write-Host "Instalando CCleaner"
-choco install ccleaner --version 6.17.10746 -Y
-
-Write-Host "Instalando AnyDesk"
-choco install anydesk.install --version 8.0.4 -Y
-
-Write-Host "Instalando Lightshot"
-choco install lightshot --version 5.5.0.720221014 -Y
+choco install notepadplusplus --version 8.5.8 -Y
 
 Write-Host "Instalando Microsoft Teams"
 choco install microsoft-teams --version 1.6.0.27573 -Y
 
-Write-Host "Instalando Google Chrome"
-choco install googlechrome --version 118.0.5993.118 -Y
+Write-Host "Instalando Java 8"
+choco install jdk8 --version 8.0.211 -Y
+
+Write-Host "Instalando Google Chorme"
+choco install googlechrome --version 119.0.6045.106 -Y
+
+Write-Host "Instalando Directx 9"
+choco install directx --version 9.29.1974.20210222 -Y
+
+Write-Host "Instalando Lightshot"
+choco install lightshot --version 5.5.0.720221014 -Y
